@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function resizeCanvas() {
         canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
+        canvas.height = document.body.scrollHeight;
     }
 
     window.addEventListener('resize', resizeCanvas);
