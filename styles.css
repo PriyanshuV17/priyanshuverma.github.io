@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     max-width: 800px;
     margin: 150px auto;
-    background-color: #263a6c; /* Deep blue background */
+    background: linear-gradient(to bottom, #263a6c, #3b5274, #4d6b8c, #6387a4); /* Gradient background */
     border-radius: 20px;
     box-shadow: 0 0 10px rgb(0, 0, 0);
     padding: 20px;
@@ -44,7 +44,7 @@ body {
     width: auto;
     padding: 20px;
     margin: 10px;
-    background-color: #263a6c; /* Deep blue background */
+    background: linear-gradient(to bottom, #263a6c, #3b5274, #4d6b8c, #6387a4); /* Gradient background */
     border: 1px solid #263a6c; /* Deep blue border */
     border-radius: 5px;
 }
@@ -125,6 +125,7 @@ h5 {
     margin: 5px 0;
     font-size: 16px;
     color: #d4a6b0; /* Light pink text */
+    cursor: pointer;
 }
 
 ul,
@@ -179,17 +180,5 @@ ol {
 }
 
 .github:hover {
-    color: #d4a6b0; /* Light pink text */
-}
-
-.social-connection img {
-    width: 10px;
-    height: 10px;
-    margin: 10px;
-}
-
-@media only screen and (max-width: 600px) {
-    .contact-card {
-        margin: 50px auto;
-    }
+    color: #333;
 }
