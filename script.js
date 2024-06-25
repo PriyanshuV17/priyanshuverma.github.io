@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
     // Get the phone number and email spans
     var phoneSpan = document.getElementById('phone');
@@ -21,5 +20,3 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = 'mailto:' + email;
     });
 });
-
-
