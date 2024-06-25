@@ -44,7 +44,8 @@ body {
     width: auto;
     padding: 20px;
     margin: 10px;
-    background: linear-gradient(to bottom, #263a6c, #3b5274, #4d6b8c, #6387a4); /* Gradient background */
+    background: linear-gradient(to bottom, #d4a6b0 0%, #d4a6b0 25%, #e0b3bc 50%, #eec2cc 75%);
+ /* Gradient background */
     border: 1px solid #263a6c; /* Deep blue border */
     border-radius: 5px;
 }
