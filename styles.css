@@ -4,17 +4,17 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom, #d4a6b0, #263a6c);
+    background-color: #000000; /* Set background color to black */
+    color: #d4a6b0; /* Light pink text */
 }
 
 #starfield {
-    position: absolute;
+    position: fixed; /* Ensure canvas stays in place during scrolling */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: #000000; /* Ensure canvas background is black */
 }
 
 .contact-card {
@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     max-width: 800px;
     margin: 150px auto;
-    background-color: #e4e4e4; /* Light gray background */
+    background-color: #263a6c; /* Deep blue background */
     border-radius: 20px;
     box-shadow: 0 0 10px rgb(0, 0, 0);
     padding: 20px;
@@ -44,8 +44,8 @@ body {
     width: auto;
     padding: 20px;
     margin: 10px;
-    background-color: #e4e4e4; /* Light gray background */
-    border: 1px solid #e4e4e4; /* Light gray border */
+    background-color: #263a6c; /* Deep blue background */
+    border: 1px solid #263a6c; /* Deep blue border */
     border-radius: 5px;
 }
 
@@ -58,7 +58,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #ccc;
+    border: 2px solid #d4a6b0; /* Light pink border */
     position: relative;
     transition: transform 0.3s;
 }
@@ -80,7 +80,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
     text-align: center;
-    color: #fff;
+    color: #d4a6b0; /* Light pink text */
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
@@ -97,7 +97,7 @@ body {
 
 h1, h2, h3, h4, h5 {
     margin: 0;
-    color: #000000; /* Black text */
+    color: #d4a6b0; /* Light pink text */
 }
 
 h1 {
@@ -124,28 +124,28 @@ h5 {
 .contact {
     margin: 5px 0;
     font-size: 16px;
-    color: #000000; /* Black text */
+    color: #d4a6b0; /* Light pink text */
 }
 
 ul,
 ol {
-    color: #333333; /* Dark gray text */
+    color: #d4a6b0; /* Light pink text */
 }
 
 #formate {
-    color: #333333; /* Dark gray text */
+    color: #d4a6b0; /* Light pink text */
 }
 
 #exp {
-    color: #333333; /* Dark gray text */
+    color: #d4a6b0; /* Light pink text */
 }
 
 #edu {
-    color: #333333; /* Dark gray text */
+    color: #d4a6b0; /* Light pink text */
 }
 
 .title {
-    color: #333333; /* Dark gray text */
+    color: #d4a6b0; /* Light pink text */
     display: flex;
     justify-content: left;
 }
@@ -161,7 +161,7 @@ ol {
     width: 50px;
     height: 50px;
     margin: 0 10px;
-    color: #333333; /* Dark gray text */
+    color: #d4a6b0; /* Light pink text */
     font-size: 24px;
     transition: transform 0.3s ease;
 }
@@ -179,7 +179,7 @@ ol {
 }
 
 .github:hover {
-    color: #000000; /* Black text */
+    color: #d4a6b0; /* Light pink text */
 }
 
 .social-connection img {
