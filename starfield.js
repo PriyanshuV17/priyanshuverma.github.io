@@ -4,41 +4,46 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function resizeCanvas() {
         canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
+        canvas.height = document.body.scrollHeight; // Make the canvas cover the entire scrollable area
     }
 
     window.addEventListener('resize', resizeCanvas);
     resizeCanvas();
 
-    let stars = [];
-    for (let i = 0; i < 200; i++) {
+    const numStars = 500;
+    const stars = [];
+
+    for (let i = 0; i < numStars; i++) {
         stars.push({
             x: Math.random() * canvas.width,
             y: Math.random() * canvas.height,
             radius: Math.random() * 1.5,
-            speed: Math.random() * 0.05,
+            alpha: Math.random()
         });
     }
 
     function drawStars() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.fillStyle = 'white';
-        for (let star of stars) {
-            ctx.beginPath();
-            ctx.arc(star.x, star.y, star.radius, 0, 2 * Math.PI);
-            ctx.fill();
-            star.y += star.speed;
+        ctx.fillStyle = '#FFFFFF'; // Star color
+        ctx.beginPath();
+        for (const star of stars) {
+            ctx.globalAlpha = star.alpha;
+            ctx.moveTo(star.x, star.y);
+            ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+        }
+        ctx.fill();
+    }
+
+    function animateStars() {
+        for (const star of stars) {
+            star.y += 0.5;
             if (star.y > canvas.height) {
                 star.y = 0;
-                star.x = Math.random() * canvas.width;
             }
         }
-    }
-
-    function animate() {
         drawStars();
-        requestAnimationFrame(animate);
+        requestAnimationFrame(animateStars);
     }
 
-    animate();
+    animateStars();
 });
