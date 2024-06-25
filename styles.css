@@ -2,13 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    background-color: #1a1a1a;  /* Changed from black to dark gray */
-    color: #ffffff; /* Default text color */
+    background-color: black; /* Background changed to black */
+    color: white; /* Text color changed to white */
 }
 
 #starfield {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -21,10 +20,11 @@ body {
     flex-direction: column;
     max-width: 800px;
     margin: 150px auto;
-    background-color: black; /* Changed from non-black to black */
+    background-color: white; /* Background changed to white */
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Adjusted shadow for visibility */
+    box-shadow: 0 0 10px rgb(0, 0, 0);
     padding: 20px;
+    color: black; /* Text color changed to black */
     z-index: 1;
 }
 
@@ -43,15 +43,16 @@ body {
     width: auto;
     padding: 20px;
     margin: 10px;
-    background-color: black; /* Changed from non-black to black */
-    border: 1px solid black; /* Changed from non-black to black */
+    background-color: white; /* Background changed to white */
+    border: 1px solid white; /* Border color changed to white */
     border-radius: 5px;
+    color: black; /* Text color changed to black */
 }
 
 .profile {
     width: 200px;
     height: 200px;
-    background-color: #1a1a1a; /* Changed from black to dark gray */
+    background-color: black; /* Background changed to black */
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -76,7 +77,7 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Kept as black overlay */
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
     text-align: center;
     color: #fff;
@@ -96,12 +97,12 @@ body {
 
 h1, h2, h3, h4, h5 {
     margin: 0;
-    color: #e4e4e4;
+    color: black; /* Text color changed to black */
 }
 
 h1 {
     font-size: 24px;
-    color: #ffffff;
+    color: black; /* Text color changed to black */
 }
 
 h2 {
@@ -119,34 +120,34 @@ h4 {
 
 h5 {
     font-size: 14px;
-    color: #ffffff;
+    color: black; /* Text color changed to black */
 }
 
 .contact {
     margin: 5px 0;
     font-size: 16px;
-    color: #ffffff;
+    color: black; /* Text color changed to black */
 }
 
 ul,
 ol {
-    color: rgb(103, 219, 255);
+    color: black; /* Text color changed to black */
 }
 
 #formate {
-    color: rgb(59, 97, 211);
+    color: black; /* Text color changed to black */
 }
 
 #exp {
-    color: #8994b1;
+    color: black; /* Text color changed to black */
 }
 
 #edu {
-    color: rgb(103, 219, 255);
+    color: black; /* Text color changed to black */
 }
 
 .title {
-    color: rgb(103, 219, 255);
+    color: black; /* Text color changed to black */
     display: flex;
     justify-content: left;
 }
@@ -162,7 +163,7 @@ ol {
     width: 50px;
     height: 50px;
     margin: 0 10px;
-    color: #d2edfc;
+    color: black; /* Text color changed to black */
     font-size: 24px;
     transition: transform 0.3s ease;
 }
@@ -180,7 +181,7 @@ ol {
 }
 
 .github:hover {
-    color: #ffffff;
+    color: white; /* Color changed to white */
 }
 
 .social-connection img {
