@@ -5,8 +5,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #000000; /* Set background color to black */
-    color: #d51740; /* Light pink text */
-}
+    color: #4682B4; /* Steel Blue text */
 
 #starfield {
     position: fixed; /* Ensure canvas stays in place during scrolling */
@@ -22,7 +21,7 @@ body {
     flex-direction: column;
     max-width: 800px;
     margin: 150px auto;
-    background: linear-gradient(to bottom, #263a6c, #3b5274, #4d6b8c, #6387a4); /* Gradient background */
+    background: linear-gradient(to bottom, #F0E68C, #FFFACD, #FAFAD2, #FFFFE0); /* Light Yellow shades gradient */
     border-radius: 20px;
     box-shadow: 0 0 10px rgb(0, 0, 0);
     padding: 20px;
@@ -44,7 +43,7 @@ body {
     width: auto;
     padding: 20px;
     margin: 10px;
-    background: linear-gradient(to bottom, #263a6c, #3b5274, #4d6b8c, #6387a4); /* Gradient background */
+    background: linear-gradient(to bottom, #87CEFA, #ADD8E6, #B0E0E6, #AFEEEE); /* Light Sky Blue to Pale Turquoise gradient */
     border: 1px solid #263a6c; /* Deep blue border */
     border-radius: 5px;
 }
@@ -80,7 +79,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
     text-align: center;
-    color: #d51740; /* Light pink text */
+    color: #4682B4; /* Steel Blue text */
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
@@ -97,7 +96,7 @@ body {
 
 h1, h2, h3, h4, h5 {
     margin: 0;
-    color: #d51740; /* Light pink text */
+    color: #4682B4; /* Steel Blue text */*/
 }
 
 h1 {
@@ -124,29 +123,29 @@ h5 {
 .contact {
     margin: 5px 0;
     font-size: 16px;
-    color: #d51740; /* Light pink text */
+    color: #4682B4; /* Steel Blue text */
     cursor: pointer;
 }
 
 ul,
 ol {
-    color: #d51740; /* Light pink text */
+   color: #4682B4; /* Steel Blue text */
 }
 
 #formate {
-    color: #d51740; /* Light pink text */
+   color: #4682B4; /* Steel Blue text */
 }
 
 #exp {
-    color: #d51740; /* Light pink text */
+   color: #4682B4; /* Steel Blue text */
 }
 
 #edu {
-    color: #d51740; /* Light pink text */
+   color: #4682B4; /* Steel Blue text */
 }
 
 .title {
-    color: #d51740; /* Light pink text */
+   color: #4682B4; /* Steel Blue text */
     display: flex;
     justify-content: left;
 }
@@ -162,7 +161,7 @@ ol {
     width: 50px;
     height: 50px;
     margin: 0 10px;
-    color: #d51740; /* Light pink text */
+   color: #4682B4; /* Steel Blue text */
     font-size: 24px;
     transition: transform 0.3s ease;
 }
@@ -172,7 +171,7 @@ ol {
 }
 /* Style for Linkdin icon */
 .linkedin:hover {
-    color: #0077b5;
+    color: #08025c;
 }
 /* Style for Instagram icon */
 .instagram:hover {
