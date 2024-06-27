@@ -5,7 +5,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #000000; /* Set background color to black */
-    color: #d4a6b0; /* Light pink text */
+    color: #d51740; /* Light pink text */
 }
 
 #starfield {
@@ -22,8 +22,7 @@ body {
     flex-direction: column;
     max-width: 800px;
     margin: 150px auto;
-    background: linear-gradient(to bottom, #d4a6b0 0%, #d4a6b0 25%, #e0b3bc 50%, #eec2cc 75%);
-     /* Gradient background */
+    background: linear-gradient(to bottom, #263a6c, #3b5274, #4d6b8c, #6387a4); /* Gradient background */
     border-radius: 20px;
     box-shadow: 0 0 10px rgb(0, 0, 0);
     padding: 20px;
@@ -45,8 +44,7 @@ body {
     width: auto;
     padding: 20px;
     margin: 10px;
-    background: linear-gradient(to bottom, #263a6c, #3b5274, #4d6b8c, #6387a4);
- /* Gradient background */
+    background: linear-gradient(to bottom, #263a6c, #3b5274, #4d6b8c, #6387a4); /* Gradient background */
     border: 1px solid #263a6c; /* Deep blue border */
     border-radius: 5px;
 }
@@ -60,7 +58,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #d4a6b0; /* Light pink border */
+    border: 2px solid #d51740; /* Light pink border */
     position: relative;
     transition: transform 0.3s;
 }
@@ -82,7 +80,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
     text-align: center;
-    color: #d4a6b0; /* Light pink text */
+    color: #d51740; /* Light pink text */
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
@@ -99,7 +97,7 @@ body {
 
 h1, h2, h3, h4, h5 {
     margin: 0;
-    color: #d4a6b0; /* Light pink text */
+    color: #d51740; /* Light pink text */
 }
 
 h1 {
@@ -126,29 +124,29 @@ h5 {
 .contact {
     margin: 5px 0;
     font-size: 16px;
-    color: #d4a6b0; /* Light pink text */
+    color: #d51740; /* Light pink text */
     cursor: pointer;
 }
 
 ul,
 ol {
-    color: #d4a6b0; /* Light pink text */
+    color: #d51740; /* Light pink text */
 }
 
 #formate {
-    color: #d4a6b0; /* Light pink text */
+    color: #d51740; /* Light pink text */
 }
 
 #exp {
-    color: #d4a6b0; /* Light pink text */
+    color: #d51740; /* Light pink text */
 }
 
 #edu {
-    color: #d4a6b0; /* Light pink text */
+    color: #d51740; /* Light pink text */
 }
 
 .title {
-    color: #d4a6b0; /* Light pink text */
+    color: #d51740; /* Light pink text */
     display: flex;
     justify-content: left;
 }
@@ -164,7 +162,7 @@ ol {
     width: 50px;
     height: 50px;
     margin: 0 10px;
-    color: #d4a6b0; /* Light pink text */
+    color: #d51740; /* Light pink text */
     font-size: 24px;
     transition: transform 0.3s ease;
 }
