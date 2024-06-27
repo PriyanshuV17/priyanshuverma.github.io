@@ -5,7 +5,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #000000; /* Set background color to black */
-    color: #4682B4; /* Steel Blue text */
+    color: #2F4F4F; /* Dark Slate Grey text */
 
 #starfield {
     position: fixed; /* Ensure canvas stays in place during scrolling */
@@ -79,7 +79,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
     text-align: center;
-    color: #4682B4; /* Steel Blue text */
+    color: #2F4F4F; /* Dark Slate Grey text */
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
@@ -96,7 +96,7 @@ body {
 
 h1, h2, h3, h4, h5 {
     margin: 0;
-    color: #4682B4; /* Steel Blue text */*/
+    color: #2F4F4F; /* Dark Slate Grey text */*/
 }
 
 h1 {
@@ -123,29 +123,29 @@ h5 {
 .contact {
     margin: 5px 0;
     font-size: 16px;
-    color: #4682B4; /* Steel Blue text */
+    color: #2F4F4F; /* Dark Slate Grey text */
     cursor: pointer;
 }
 
 ul,
 ol {
-   color: #4682B4; /* Steel Blue text */
+   color: #2F4F4F; /* Dark Slate Grey text */
 }
 
 #formate {
-   color: #4682B4; /* Steel Blue text */
+   color: #2F4F4F; /* Dark Slate Grey text */
 }
 
 #exp {
-   color: #4682B4; /* Steel Blue text */
+   color: #2F4F4F; /* Dark Slate Grey text */
 }
 
 #edu {
-   color: #4682B4; /* Steel Blue text */
+   color: #2F4F4F; /* Dark Slate Grey text */
 }
 
 .title {
-   color: #4682B4; /* Steel Blue text */
+   color: #2F4F4F; /* Dark Slate Grey text */
     display: flex;
     justify-content: left;
 }
@@ -161,7 +161,7 @@ ol {
     width: 50px;
     height: 50px;
     margin: 0 10px;
-   color: #4682B4; /* Steel Blue text */
+   color: #2F4F4F; /* Dark Slate Grey text */
     font-size: 24px;
     transition: transform 0.3s ease;
 }
